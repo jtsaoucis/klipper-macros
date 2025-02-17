@@ -143,7 +143,7 @@ To install the macros, first clone this repository inside of your
 `printer_data/config` directory with the following command.
 
 ```
-git clone https://github.com/jschuh/klipper-macros.git
+git clone https://github.com/jtsaoucis/klipper-macros.git
 ```
 
 Then paste the below sections into your `printer.cfg` to get started. Or even
@@ -389,7 +389,7 @@ Moonraker keep them up to date by adding the following into your
 ```
 [update_manager klipper-macros]
 type: git_repo
-origin: https://github.com/jschuh/klipper-macros.git
+origin: https://github.com/jtsaoucis/klipper-macros.git
 path: ~/printer_data/config/klipper-macros # UPDATE THIS FOR YOUR PATH!!!
 primary_branch: main
 is_system_service: False
